@@ -15,6 +15,29 @@ To install from Github:
 devtools::install_github("ericchen12377/MSRDT")
 library(MSRDT)
 ```
-## Example
+## Examples
+```
+######Binomial RDT Design######
+###Generate the prior distribution of failure probability
+##Beta is conjugate prior to binomial distribution
+#Get the non-informative prior Beta(1, 1)
+pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
+
+#Get the consumer's risk
+n = 10
+R = 0.8
+c = 2
+b_CR <- bconsumerrisk(n = n, c = c, pi = pi, R = R)
+print(b_CR)
+#         [,1]
+#>[1,] 0.3330482
+##As n increases, CR decreases
+#Get the optimal test sample size
+thres_CR = 0.05 #CR < 0.05
+b_n <- boptimal_n(c = 2, pi = pi, R = 0.8, thres_CR = 0.05)
+print(b_n)
+#>[1] 24
+```
+
 ## Version Logs
 > 1.0.0 : This is the initial verison.
