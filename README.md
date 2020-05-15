@@ -12,5 +12,5 @@ devtools::install_github("ericchen12377/MSRDT")
 library(MSRDT)
 ```
 ## Example
-## Version Log
+## Version Logs
 ### 1.0.0 This is the initial verison.
