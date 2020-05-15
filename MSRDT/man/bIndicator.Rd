@@ -21,3 +21,9 @@ Define the binary indicator function to check whether the failure probability sa
 bIndicator(pi = 0.05, R = 0.9)
 bIndicator(pi = 0.2, R = 0.9)
 }
+\seealso{
+\code{\link{bcore}} for getting the core probability of passting the test;
+\code{\link{boptimal_n}} for getting the optimal test sample size;
+\code{\link{bconsumerrisk}} for getting the consumer's risk;
+}
+\concept{Binomial RDT functions}

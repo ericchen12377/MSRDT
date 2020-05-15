@@ -2,7 +2,7 @@
 % Please edit documentation in R/MPCum_core.R
 \name{MPCum_core}
 \alias{MPCum_core}
-\title{Probability Core for Multi-State RDT with Multiple Periods and Criteria for Cumulative Periods}
+\title{Probability Core for Multi-state RDT with Multiple Periods and Criteria for Cumulative Periods}
 \usage{
 MPCum_core(n, cvec, pivec)
 }
@@ -25,6 +25,7 @@ The maximum allowable failures for each cumulative period need to be satisfied t
 pi <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
 MPCum_core(n = 10, cvec = c(1, 1), pivec = pi[1, ]);
 #The function also works for more than two periods, however, may increase the computation cost.
+#Example for three periods
 pi <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1, 1))
 MPCum_core(n = 10, cvec = c(1, 1, 1), pivec = pi[1, ]);
 }

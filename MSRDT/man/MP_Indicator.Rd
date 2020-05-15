@@ -2,7 +2,7 @@
 % Please edit documentation in R/MP_Indicator.R
 \name{MP_Indicator}
 \alias{MP_Indicator}
-\title{Binary Indicator for Multi-State RDT with Multiple Periods}
+\title{Binary Indicator for Multi-state RDT with Multiple Periods}
 \usage{
 MP_Indicator(pivec, Rvec)
 }

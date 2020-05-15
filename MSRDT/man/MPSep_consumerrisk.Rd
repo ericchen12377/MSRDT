@@ -2,7 +2,7 @@
 % Please edit documentation in R/MPSep_consumerrisk.R
 \name{MPSep_consumerrisk}
 \alias{MPSep_consumerrisk}
-\title{Consumer's Risk for Multi-State RDT with Multiple Periods and Criteria for Separate Periods}
+\title{Consumer's Risk for Multi-state RDT with Multiple Periods and Criteria for Separate Periods}
 \usage{
 MPSep_consumerrisk(n, cvec, pivec, Rvec)
 }

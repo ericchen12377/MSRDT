@@ -2,7 +2,7 @@
 % Please edit documentation in R/MFM_optimal_n.R
 \name{MFM_optimal_n}
 \alias{MFM_optimal_n}
-\title{Optimal Test Sample Size for Multi-State RDT with Multiple Failure Modes}
+\title{Optimal Test Sample Size for Multi-state RDT with Multiple Failure Modes}
 \usage{
 MFM_optimal_n(cvec, pivec, Rvec, thres_CR)
 }

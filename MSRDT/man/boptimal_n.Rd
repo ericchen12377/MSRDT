@@ -27,5 +27,7 @@ pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
 boptimal_n(c = 2, pi = pi, R = 0.8, thres_CR = 0.05);
 }
 \seealso{
-\code{\link{boptimal_cost}}
+\code{\link{bcore}} for getting the core probability of passting the test;
+\code{\link{bconsumerrisk}} for getting the consumer's risk;
+\code{\link{bIndicator}} for getting the binary indicator;
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/MPSep_optimal_n.R
 \name{MPSep_optimal_n}
 \alias{MPSep_optimal_n}
-\title{Optimal Test Sample Size for Multi-State RDT with Multiple Periods and Criteria for Separate Periods}
+\title{Optimal Test Sample Size for Multi-state RDT with Multiple Periods and Criteria for Separate Periods}
 \usage{
 MPSep_optimal_n(cvec, pivec, Rvec, thres_CR)
 }

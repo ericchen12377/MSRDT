@@ -2,7 +2,7 @@
 % Please edit documentation in R/MFM_core.R
 \name{MFM_core}
 \alias{MFM_core}
-\title{Probability Core for Multi-State RDT with Multiple Failure Modes}
+\title{Probability Core for Multi-state RDT with Multiple Failure Modes}
 \usage{
 MFM_core(n, cvec, pivec)
 }
@@ -25,7 +25,8 @@ under different failure modes (for Multi-state RDT, Multiple Failure Modes).
 pi1 <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
 pi2 <- pi_MCSim_beta(M = 5000, seed = 10, a = 2, b = 18)
 MFM_core(n = 10, cvec = c(1, 1), pivec = c(pi1[1], pi2[1]));
-#The function also works for more than two failure modes,
-however, may increase the computation cost.
+#The function also works for more than two failure modes.
+#However, the computation cost may increase.
+#Example for three failure modes
 MFM_core(n = 10, cvec = c(1, 1, 1), pivec = c(0.8, 0.9, 0.8));
 }

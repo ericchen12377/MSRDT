@@ -26,5 +26,7 @@ pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
 bconsumerrisk(n = 10, c = 2, pi = pi, R = 0.8);
 }
 \seealso{
-\code{\link{bproducerrisk}}, \code{\link{bacceptprob}}, \code{\link{brejectprob}}
+\code{\link{bcore}} for getting the core probability of passting the test;
+\code{\link{boptimal_n}} for getting the optimal test sample size;
+\code{\link{bIndicator}} for getting the binary indicator;
 }

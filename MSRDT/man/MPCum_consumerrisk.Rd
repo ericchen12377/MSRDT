@@ -2,7 +2,7 @@
 % Please edit documentation in R/MPCum_consumerrisk.R
 \name{MPCum_consumerrisk}
 \alias{MPCum_consumerrisk}
-\title{Consumer's Risk for Multi-State RDT with Multiple Periods and Criteria for Cumulative Periods}
+\title{Consumer's Risk for Multi-state RDT with Multiple Periods and Criteria for Cumulative Periods}
 \usage{
 MPCum_consumerrisk(n, cvec, pivec, Rvec)
 }

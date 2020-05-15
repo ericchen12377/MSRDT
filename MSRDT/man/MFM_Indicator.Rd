@@ -2,7 +2,7 @@
 % Please edit documentation in R/MFM_Indicator.R
 \name{MFM_Indicator}
 \alias{MFM_Indicator}
-\title{Binary Indicator for Multi-State RDT with Multiple Failure Modes}
+\title{Binary Indicator for Multi-state RDT with Multiple Failure Modes}
 \usage{
 MFM_Indicator(pivec, Rvec)
 }

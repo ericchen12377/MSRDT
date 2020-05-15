@@ -25,4 +25,8 @@ print(pi[1:3, ])
 }
 \seealso{
 \code{\link{pi_MCSim_beta}}
+
+Other Prior distribution generation functions: 
+\code{\link{pi_MCSim_beta}()}
 }
+\concept{Prior distribution generation functions}

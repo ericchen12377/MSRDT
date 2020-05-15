@@ -2,7 +2,7 @@
 % Please edit documentation in R/MPCum_optimal_n.R
 \name{MPCum_optimal_n}
 \alias{MPCum_optimal_n}
-\title{Optimal Test Sample Size for Multi-State RDT with Multiple Periods and Criteria for Cumulative Periods}
+\title{Optimal Test Sample Size for Multi-state RDT with Multiple Periods and Criteria for Cumulative Periods}
 \usage{
 MPCum_optimal_n(cvec, pivec, Rvec, thres_CR)
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/MFM_consumerrisk.R
 \name{MFM_consumerrisk}
 \alias{MFM_consumerrisk}
-\title{Consumer's Risk for Multi-State RDT with Multiple Failure Modes}
+\title{Consumer's Risk for Multi-state RDT with Multiple Failure Modes}
 \usage{
 MFM_consumerrisk(n, cvec, pivec, Rvec)
 }
