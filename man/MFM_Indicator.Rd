@@ -2,7 +2,7 @@
 % Please edit documentation in R/MFM_Indicator.R
 \name{MFM_Indicator}
 \alias{MFM_Indicator}
-\title{Binary Indicator for Multi-state RDT with Multiple Failure Modes}
+\title{Binary Indicator for Multi-state RDT with Multiple Failure Modes (MFM)}
 \usage{
 MFM_Indicator(pivec, Rvec)
 }
@@ -22,3 +22,14 @@ MFM_Indicator(pivec = c(0.1, 0.2), Rvec = c(0.8, 0.6))
 MFM_Indicator(pivec = c(0.1, 0.2, 0.1), Rvec = c(0.8, 0.6, 0.4))
 MFM_Indicator(pivec = c(0.1, 0.4), Rvec = c(0.8, 0.7))
 }
+\seealso{
+\code{\link{MFM_core}} for getting the core probability of passting the test;
+\code{\link{MFM_consumerrisk}} for getting the consumer's risk;
+\code{\link{MFM_optimal_n}} for getting the optimal test sample size;
+
+Other MSRDT for MFM functions: 
+\code{\link{MFM_consumerrisk}()},
+\code{\link{MFM_core}()},
+\code{\link{MFM_optimal_n}()}
+}
+\concept{MSRDT for MFM functions}

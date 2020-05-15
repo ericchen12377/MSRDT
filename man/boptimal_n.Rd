@@ -30,4 +30,10 @@ boptimal_n(c = 2, pi = pi, R = 0.8, thres_CR = 0.05);
 \code{\link{bcore}} for getting the core probability of passting the test;
 \code{\link{bconsumerrisk}} for getting the consumer's risk;
 \code{\link{bIndicator}} for getting the binary indicator;
+
+Other Binomial RDT functions: 
+\code{\link{bIndicator}()},
+\code{\link{bconsumerrisk}()},
+\code{\link{bcore}()}
 }
+\concept{Binomial RDT functions}

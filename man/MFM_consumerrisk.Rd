@@ -2,7 +2,7 @@
 % Please edit documentation in R/MFM_consumerrisk.R
 \name{MFM_consumerrisk}
 \alias{MFM_consumerrisk}
-\title{Consumer's Risk for Multi-state RDT with Multiple Failure Modes}
+\title{Consumer's Risk for Multi-state RDT with Multiple Failure Modes (MFM)}
 \usage{
 MFM_consumerrisk(n, cvec, pivec, Rvec)
 }
@@ -26,3 +26,14 @@ pi1 <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
 pi2 <- pi_MCSim_beta(M = 5000, seed = 10, a = 2, b = 18)
 MFM_consumerrisk(n = 10, cvec = c(1, 1), pivec = cbind(pi1, pi2), Rvec = c(0.8, 0.7))
 }
+\seealso{
+\code{\link{MFM_core}} for getting the core probability of passting the test;
+\code{\link{MFM_Indicator}} for getting the binary indicator;
+\code{\link{MFM_optimal_n}} for getting the optimal test sample size;
+
+Other MSRDT for MFM functions: 
+\code{\link{MFM_Indicator}()},
+\code{\link{MFM_core}()},
+\code{\link{MFM_optimal_n}()}
+}
+\concept{MSRDT for MFM functions}

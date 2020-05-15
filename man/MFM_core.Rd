@@ -2,7 +2,7 @@
 % Please edit documentation in R/MFM_core.R
 \name{MFM_core}
 \alias{MFM_core}
-\title{Probability Core for Multi-state RDT with Multiple Failure Modes}
+\title{Probability Core for Multi-state RDT with Multiple Failure Modes (MFM)}
 \usage{
 MFM_core(n, cvec, pivec)
 }
@@ -30,3 +30,14 @@ MFM_core(n = 10, cvec = c(1, 1), pivec = c(pi1[1], pi2[1]));
 #Example for three failure modes
 MFM_core(n = 10, cvec = c(1, 1, 1), pivec = c(0.8, 0.9, 0.8));
 }
+\seealso{
+\code{\link{MFM_consumerrisk}} for getting the consumer's risk;
+\code{\link{MFM_Indicator}} for getting the binary indicator;
+\code{\link{MFM_optimal_n}} for getting the optimal test sample size;
+
+Other MSRDT for MFM functions: 
+\code{\link{MFM_Indicator}()},
+\code{\link{MFM_consumerrisk}()},
+\code{\link{MFM_optimal_n}()}
+}
+\concept{MSRDT for MFM functions}
