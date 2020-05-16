@@ -26,7 +26,7 @@ pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
 print(pi)
 }
 \seealso{
-\code{\link{pi_MCSim_Dirichlet}}
+\code{\link{pi_MCSim_dirichlet}}
 
 Other Prior distribution generation functions: 
 \code{\link{pi_MCSim_dirichlet}()}
