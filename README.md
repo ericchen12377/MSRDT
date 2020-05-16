@@ -13,7 +13,11 @@ The paper [Multi-state Reliability Demonstration Tests](https://www.researchgate
 To install from Github:
 ```
 devtools::install_github("ericchen12377/MSRDT")
+#build vignettes if needed
+devtools::install_github("ericchen12377/MSRDT", build_vignettes = TRUE, force = TRUE)
 library(MSRDT)
+#view vignettes
+browseVignettes('MSRDT')
 ```
 ## Examples
 ```
