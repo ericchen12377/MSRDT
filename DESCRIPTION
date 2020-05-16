@@ -1,7 +1,7 @@
 Package: MSRDT
 Type: Package
 Title: Multi-state Reliability Demonstration Tests (MSRDT)
-Version: 1.0.0
+Version: 0.1.0
 Authors@R: 
     c(person("Suiyao",
              "Chen",
@@ -28,5 +28,6 @@ Suggests:
     tidyverse,
     knitr,
     rmarkdown
+URL:https://github.com/ericchen12377/MSRDT
 BugReports: https://github.com/ericchen12377/MSRDT/issues
 VignetteBuilder: knitr
