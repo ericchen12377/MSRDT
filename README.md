@@ -67,5 +67,5 @@ print(MPCum_n)
 #>[1] 20
 ```
 
-## Version Logs
-> v0.1.0 : This is the initial verison.
+## [Updates](NEWS.md)
+* Version logs are provided.
