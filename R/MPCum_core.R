@@ -10,11 +10,11 @@ utils::globalVariables(c("Var2"))
 #' @return Core probability of passing the test given specific failure probabilities
 #' @examples
 #' #Example for two periods
-#' pi <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
+#' pi <- pi_MCSim_dirichlet(M = 1000, seed = 10, par = c(1, 1, 1))
 #' MPCum_core(n = 10, cvec = c(1, 1), pivec = pi[1, ]);
 #' #The function also works for more than two periods, however, may increase the computation cost.
 #' #Example for three periods
-#' pi <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1, 1))
+#' pi <- pi_MCSim_dirichlet(M = 1000, seed = 10, par = c(1, 1, 1, 1))
 #' MPCum_core(n = 10, cvec = c(1, 1, 1), pivec = pi[1, ]);
 #' @export
 #' @importFrom stats dmultinom

@@ -22,8 +22,7 @@ Vector of failure probability sample values
 Define the simulation function to generate failure probability with Beta prior distributions as conjugate prior to binomial distributions (for binomial RDT).
 }
 \examples{
-pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
-print(pi)
+pi <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
 }
 \seealso{
 \code{\link{pi_MCSim_dirichlet}}

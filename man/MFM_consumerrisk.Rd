@@ -22,8 +22,8 @@ Probability for consumer's risk
 Define the consumer risk function which gets the probability of passing the test when the lower level reliability requirements are not satisfied under different failure modes (for Multi-state RDT, Multiple Failure Modes).
 }
 \examples{
-pi1 <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
-pi2 <- pi_MCSim_beta(M = 5000, seed = 10, a = 2, b = 18)
+pi1 <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
+pi2 <- pi_MCSim_beta(M = 1000, seed = 10, a = 2, b = 18)
 MFM_consumerrisk(n = 10, cvec = c(1, 1), pivec = cbind(pi1, pi2), Rvec = c(0.8, 0.7))
 }
 \seealso{

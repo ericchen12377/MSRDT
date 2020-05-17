@@ -9,8 +9,8 @@
 #' @param Rvec Lower level reliability requirements for each cumulative period from the begining of the test.
 #' @return Probability for consumer's risk
 #' @examples
-#' pi <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
-#' MPSep_consumerrisk(n = 10, cvec = c(1,1), pi = pi, Rvec = c(0.8, 0.7))
+#' pi <- pi_MCSim_dirichlet(M = 1000, seed = 10, par = c(1, 1, 1))
+#' MPSep_consumerrisk(n = 10, cvec = c(1, 1), pi = pi, Rvec = c(0.8, 0.7))
 #' @export
 
 

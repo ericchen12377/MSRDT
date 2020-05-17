@@ -8,9 +8,11 @@
 #' @param thres_CR Threshold (acceptable level) of consumer's risk
 #' @return Minimum test sample size
 #' @examples
+#' \dontrun{
 #' pi1 <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
 #' pi2 <- pi_MCSim_beta(M = 5000, seed = 10, a = 2, b = 18)
 #' MFM_optimal_n(cvec = c(1, 1), pivec = cbind(pi1, pi2), Rvec = c(0.8, 0.7), thres_CR = 0.05)
+#' }
 #' @export
 #' @family MSRDT for MFM functions
 #' @seealso \code{\link{MFM_core}} for getting the core probability of passting the test;

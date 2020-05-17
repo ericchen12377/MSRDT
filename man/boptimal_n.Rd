@@ -23,8 +23,10 @@ Define the optimal function to find the optimal test plan with minimum test samp
 level of consumer's risk (for binomial RDT).
 }
 \examples{
-pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
-boptimal_n(c = 2, pi = pi, R = 0.8, thres_CR = 0.05);
+\dontrun{
+pi <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
+boptimal_n(c = 2, pi = pi, R = 0.8, thres_CR = 0.05)
+}
 }
 \seealso{
 \code{\link{bcore}} for getting the core probability of passting the test;

@@ -9,8 +9,10 @@
 #' @param thres_CR Threshold (acceptable level) of consumer's risk
 #' @return Minimum test sample size
 #' @examples
-#' pi <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
+#' \dontrun{
+#' pi <- pi_MCSim_dirichlet(M = 1000, seed = 10, par = c(1, 1, 1))
 #' MPCum_optimal_n(cvec = c(1,1), pivec = pi, Rvec = c(0.8, 0.7), thres_CR = 0.05)
+#' }
 #' @export
 
 

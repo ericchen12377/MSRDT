@@ -22,7 +22,7 @@ Probability of consumer's risk
 Define the consumer's risk function which gets the probability of passing the test when the lower level reliability requirement is not satisfied (for binomial RDT).
 }
 \examples{
-pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
+pi <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
 bconsumerrisk(n = 10, c = 2, pi = pi, R = 0.8);
 }
 \seealso{

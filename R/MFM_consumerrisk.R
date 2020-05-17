@@ -8,8 +8,8 @@
 #' @param Rvec Lower level reliability requirements for each cumulative period from the begining of the test.
 #' @return Probability for consumer's risk
 #' @examples
-#' pi1 <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
-#' pi2 <- pi_MCSim_beta(M = 5000, seed = 10, a = 2, b = 18)
+#' pi1 <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
+#' pi2 <- pi_MCSim_beta(M = 1000, seed = 10, a = 2, b = 18)
 #' MFM_consumerrisk(n = 10, cvec = c(1, 1), pivec = cbind(pi1, pi2), Rvec = c(0.8, 0.7))
 #' @export
 #' @family MSRDT for MFM functions

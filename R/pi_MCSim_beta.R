@@ -8,8 +8,7 @@
 #' @param b Shape parameter 2 for beta distribution
 #' @return Vector of failure probability sample values
 #' @examples
-#' pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
-#' print(pi)
+#' pi <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
 #' @export
 #' @importFrom stats rbeta
 #' @family Prior distribution generation functions

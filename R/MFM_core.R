@@ -8,9 +8,9 @@
 #' @param pivec Failure probability for each seperate period
 #' @return Core probability of passing the test given specific failure probabilities
 #' @examples
-#' #Example for two failure modes
-#' pi1 <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
-#' pi2 <- pi_MCSim_beta(M = 5000, seed = 10, a = 2, b = 18)
+#' #' #Example for two failure modes
+#' pi1 <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
+#' pi2 <- pi_MCSim_beta(M = 1000, seed = 10, a = 2, b = 18)
 #' MFM_core(n = 10, cvec = c(1, 1), pivec = c(pi1[1], pi2[1]));
 #' #The function also works for more than two failure modes.
 #' #However, the computation cost may increase.

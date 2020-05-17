@@ -9,8 +9,10 @@
 #' @param thres_CR Threshold (acceptable level) of consumer's risk
 #' @return Minimum test sample size
 #' @examples
-#' pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
-#' boptimal_n(c = 2, pi = pi, R = 0.8, thres_CR = 0.05);
+#' \dontrun{
+#' pi <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
+#' boptimal_n(c = 2, pi = pi, R = 0.8, thres_CR = 0.05)
+#' }
 #' @export
 #' @family Binomial RDT functions
 #' @seealso \code{\link{bcore}} for getting the core probability of passting the test;
