@@ -68,4 +68,4 @@ print(MPCum_n)
 ```
 
 ## Version Logs
-> 1.0.0 : This is the initial verison.
+> 0.1.0 : This is the initial verison.
