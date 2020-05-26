@@ -23,8 +23,8 @@ Define the optimal function to find the optimal test plan with minimum test samp
 The maximum allowable failures for each separate period need to be satisfied to pass the test (for Multi-state RDT, Multiple Periods, Scenario I)
 }
 \examples{
-\dontrun{
-pi <- pi_MCSim_dirichlet(M = 1000, seed = 10, par = c(1, 1, 1))
+\donttest{
+pi <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
 MPSep_optimal_n(cvec = c(1, 1), pivec = pi, Rvec = c(0.8, 0.7), thres_CR = 0.05)
 }
 }
