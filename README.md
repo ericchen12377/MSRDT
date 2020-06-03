@@ -19,6 +19,10 @@ library(MSRDT)
 #view vignettes
 browseVignettes('MSRDT')
 ```
+To install from [CRAN-Package MSRDT](https://cran.r-project.org/web/packages/MSRDT/index.html)
+```
+install.packages("MSRDT")
+```
 ## Examples
 ```
 ######Binomial RDT Design######
