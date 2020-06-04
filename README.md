@@ -7,7 +7,7 @@ This package provides the Bayesian methods to get the optimal test sample size i
 ## Reference
 This is the R package implementation for the design methods of multi-state reliabiltiy demonstration tests (MSRDTs) with failure count data. The original work is from one of the research projects listed on [Suiyao Chen's Homepage](https://sites.google.com/mail.usf.edu/suiyaochen-professional/publication?authuser=0). 
 
-The paper [Multi-state Reliability Demonstration Tests](https://www.researchgate.net/publication/315955046_Multi-State_Reliability_Demonstration_Tests) has been published in [Quality Engineering](https://www.tandfonline.com/eprint/6aSdzucbThJSnxZMZira/full). To cite this paper, please use 
+The paper [Multi-state Reliability Demonstration Tests](https://www.researchgate.net/publication/315955046_Multi-State_Reliability_Demonstration_Tests) has been published in [Quality Engineering](https://www.tandfonline.com/doi/10.1080/08982112.2017.1314493). To cite this paper, please use 
 > Suiyao Chen, Lu Lu & Mingyang Li (2017) Multi-state reliability demonstration tests, Quality Engineering, 29:3, 431-445, DOI: 10.1080/08982112.2017.1314493
 ## Installation
 To install from Github:
