@@ -1,4 +1,5 @@
 # MSRDT (Multi-state Reliability Demonstration Tests)
+[![](https://cranlogs.r-pkg.org/badges/MSRDT)](https://cran.r-project.org/package=MSRDT)
 ## Description
 This package provides the Bayesian methods to get the optimal test sample size in binomial RDT design and multi-state RDT designs. Numerical estimation of consumer's risk can be obtained through Monte Carlo Simulation. The package provides three categories of methods.
 * Binomial RDT (b_.R): This is the conventional test design using failure count data and assuming binomial failure distributions over the testing period. Binomial RDT can also be referred to as binomial test or attribute test.
