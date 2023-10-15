@@ -9,7 +9,7 @@
 #' @examples
 #' bcore(n = 10, c = 2, pi = 0.2)
 #' @export
-#' @importFrom stats dbinom
+#' @importFrom stats pbinom
 #' @family Binomial RDT functions
 #' @seealso \code{\link{boptimal_n}} for getting the optimal test sample size;
 #' \code{\link{bconsumerrisk}} for getting the consumer's risk;
@@ -17,5 +17,5 @@
 
 
 bcore <- function(n, c, pi){
-  return(sum(dbinom(c(0:c), n, pi)))
+  return (pbinom(c, n, pi))
 }

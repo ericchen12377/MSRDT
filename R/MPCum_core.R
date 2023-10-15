@@ -25,7 +25,7 @@ utils::globalVariables(c("Var2"))
 
 
 
-######define the inside sum core of integration fucntion
+######define the inside sum core of integration function
 MPCum_core<-function(n, cvec, pivec){
   if(n <= sum(cvec)){
     return(0)

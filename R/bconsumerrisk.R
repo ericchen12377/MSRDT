@@ -18,7 +18,7 @@
 #' \code{\link{bIndicator}} for getting the binary indicator;
 
 bconsumerrisk <- function(n, c, pi, R){
-  tmp <- pbinom(c, n, pi)
+  tmp <- bcore(n, c, pi)
   sum1 <- t(matrix(tmp)) %*% matrix(sapply(pi, bIndicator, R))
   sum2 <- sum(tmp)
   return(1 - sum1/sum2)

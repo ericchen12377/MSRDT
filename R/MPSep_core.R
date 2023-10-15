@@ -20,7 +20,7 @@
 
 
 
-######define the inside sum core of integration fucntion
+######define the inside sum core of integration function
 MPSep_core<-function(n, cvec, pivec){
   if(n <= sum(cvec)){
     return(0)

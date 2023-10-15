@@ -1,13 +1,13 @@
 Package: MSRDT
 Type: Package
 Title: Multi-State Reliability Demonstration Tests
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(person("Suiyao",
              "Chen",
              role = c("aut", "cre"),
-             email = "csycsy12377@gmail.com"))
-Maintainer: Suiyao Chen <csycsy12377@gmail.com>
+             email = "suiyaochen@usf.edu"))
+Maintainer: Suiyao Chen <suiyaochen@usf.edu>
 Description: This is a implementation of design methods for multi-state reliability demonstration tests (MSRDTs) with failure count data, 
     which is associated with the work from the published paper "Multi-state Reliability Demonstration Tests" by Suiyao Chen et al. (2017) <doi:10.1080/08982112.2017.1314493>.
     It implements two types of MSRDT, multiple periods (MP) and multiple failure modes (MFM). For MP, two different scenarios with criteria on cumulative periods (Cum) or separate periods (Sep) are implemented respectively.
@@ -21,8 +21,7 @@ Imports:
     gtools,
     stats,
     reshape2,
-    dplyr,
-    utils
+    dplyr
 Suggests:
     tidyverse,
     knitr,
