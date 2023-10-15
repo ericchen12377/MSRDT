@@ -6,7 +6,8 @@ Authors@R:
     c(person("Suiyao",
              "Chen",
              role = c("aut", "cre"),
-             email = "suiyaochen@usf.edu"))
+             email = "suiyaochen@usf.edu"),
+             comment = c(ORCID = "0000-0002-6867-7865"))
 Maintainer: Suiyao Chen <suiyaochen@usf.edu>
 Description: This is a implementation of design methods for multi-state reliability demonstration tests (MSRDTs) with failure count data, 
     which is associated with the work from the published paper "Multi-state Reliability Demonstration Tests" by Suiyao Chen et al. (2017) <doi:10.1080/08982112.2017.1314493>.
